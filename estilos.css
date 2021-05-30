@@ -1,0 +1,55 @@
+body{
+    background-color: #fc8f59;
+    font-family: sans-serif;
+}
+.blanco-centro{
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.blanco-centro a{
+    color: rgb(226, 14, 14);
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 115px;
+    margin-bottom: 125px;
+    
+    
+}
+.contenedor-ejercicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;   
+    display: block;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+}
+.ejercicios{
+    height: 150px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #b2f7f7;
+}
+.contenedor{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    
+    
+}
+.contenedor form{
+    margin: auto;
+    justify-content: center;
+}
+.contenedor form input{
+    display: block;
+    margin-bottom: 5px;
+    margin: auto auto 5px auto;
+}
